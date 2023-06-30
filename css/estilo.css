@@ -1,0 +1,104 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+article
+{
+	background: #00ffa5;
+	border: 1px solid #999999;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+#agrupar
+{
+	width: 98%;
+	margin: 15px auto;
+	text-align: left;
+}
+
+#cabecera{
+	background-image: url(./../img/cfondo.jpg);
+	border: 1px;
+	padding: 10px;
+	text-align: center;
+	width: 750px;
+	height: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 15px;
+}
+#seccion
+{
+	width: 100%;
+	margin: 50px;
+	float: left;
+	border-radius: 50px;
+	text-align: center;
+}
+article
+{
+	border: 1px solid #999999;
+	padding: 20px;
+	margin-bottom: 15 px;
+}
+body{
+	background-image: url(./../img/Fondo.jpg);
+	background-position: center;
+	background-position: no-repeat;
+	color: #fff;
+	font-size: 10px;
+}
+nav{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: pink;
+}
+nav ul{
+	margin: 0 auto;
+	width: 750px;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a{
+	display: block;
+	margin-right: 20px;
+	width: 140px;
+	font-size: 20px;
+	line-height: 44px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+nav ul li a:hover{
+	color: black;
+}
+#pie
+{
+	clear: both;
+	background: #FF00FF;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
+}
+
+.resolucion{
+	width: 99%;
+	text-align: center;
+	}
+/**movil**/
+@media(max-width: 767px){
+.desktop{display: none;}
+.tablet{display: none;}
+}
+/**Tablet**/
+@media(min-width:768px) and (max-width:990px){
+.desktop{display: none;}
+.movil{display: none;}
+}
+/**Escritorio**/
+@media(min-width: 991px){
+.tablet{display: none;}
+.movil{display: none;}
+}
